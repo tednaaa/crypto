@@ -1,56 +1,40 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-	srcDir: "src",
+	rewrites: {
+		"ru/:rest*": ":rest*",
+	},
 
-	title: "Crypto Trading Guide",
-	description:
-		"Comprehensive guide to cryptocurrency trading with 15+ years of market experience",
+	title: "Crypto",
 
 	themeConfig: {
 		sidebar: [
 			{
-				text: "Quick Start",
-				items: [{ text: "Quick Start Guide", link: "/guide/00-quick-start" }],
-			},
-			{
-				text: "Part 1: Fundamentals",
+				text: "База",
+				link: "/base",
 				items: [
-					{ text: "Getting Started", link: "/guide/01-getting-started" },
-					{ text: "Risk Management", link: "/guide/03-risk-management" },
-					{ text: "Trading Psychology", link: "/guide/04-trading-psychology" },
+					{ text: "Где торговать?", link: "/base/exchanges" },
+					{ text: "Личные заметки", link: "/base/notes" },
 				],
 			},
 			{
-				text: "Part 2: Technical Analysis",
+				text: "Инструменты",
 				items: [
-					{ text: "Technical Analysis", link: "/guide/05-technical-analysis" },
+					{ text: "TradingView", link: "/tools/tradingview" },
+					{ text: "CoinMarketCap", link: "/tools/coinmarketcap" },
+					{ text: "Coinglass", link: "/tools/coinglass" },
 				],
 			},
 			{
-				text: "Part 3: Advanced Strategies",
+				text: "Индикаторы",
 				items: [
-					{ text: "Trading Strategies", link: "/guide/09-trading-strategies" },
-				],
-			},
-			{
-				text: "Part 4: Tools & Resources",
-				items: [{ text: "Trading Tools", link: "/guide/13-trading-tools" }],
-			},
-			{
-				text: "Part 5: Market Intelligence",
-				items: [
+					{ text: "rsi + macd", link: "/indicators/rsi_macd" },
 					{
-						text: "Fundamental Analysis",
-						link: "/guide/17-fundamental-analysis",
+						text: "bollinger + nadara",
+						link: "/indicators/bollinger_nadara",
 					},
 				],
 			},
-		],
-
-		nav: [
-			{ text: "Home", link: "/" },
-			{ text: "Guide", link: "/guide/" },
 		],
 
 		socialLinks: [
@@ -58,9 +42,7 @@ export default defineConfig({
 		],
 
 		footer: {
-			message: "Educational purposes only. Trading carries substantial risk.",
-			copyright:
-				"Always do your own research and never invest more than you can afford to lose.",
+			message: "Инвестируйте только те деньги которые готовы потерять",
 		},
 	},
 });
