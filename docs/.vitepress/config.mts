@@ -35,6 +35,7 @@ export default defineConfig({
 					},
 				],
 			},
+			{ text: "Фьючерсы", link: "/futures" },
 		],
 
 		socialLinks: [
