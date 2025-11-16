@@ -1,3 +1,5 @@
 https://tradingview.com
 
-- графики индикаторы, все что нужно чтобы следить за рынком
+- Мой Сетап
+
+![](assets/tradingview_setup.png)

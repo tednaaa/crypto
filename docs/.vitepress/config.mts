@@ -21,8 +21,9 @@ export default defineConfig({
 				text: "Инструменты",
 				items: [
 					{ text: "TradingView", link: "/tools/tradingview" },
-					{ text: "CoinMarketCap", link: "/tools/coinmarketcap" },
 					{ text: "Coinglass", link: "/tools/coinglass" },
+					{ text: "CoinMarketCap", link: "/tools/coinmarketcap" },
+					{ text: "CryptoBubbles", link: "/tools/cryptobubbles" },
 				],
 			},
 			{

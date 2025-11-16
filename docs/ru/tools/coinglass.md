@@ -1,5 +1,9 @@
 https://coinglass.com
 
+- Мой Сетап
+
+![](assets/coinglass_setup.png)
+
 - [карта ликвидности](https://www.coinglass.com/pro/futures/LiquidationHeatMap)
 - лучше ставить 1-2 недельный интервал либо больше 1-3 месяца для анализа ликвидности
 - цена обычно падает туда где собран весь ликвидность
