@@ -24,3 +24,11 @@
 <br>
 <br>
 <br>
+
+### TODO
+
+- https://youtube.com/shorts/vy-FJ5byw1E?si=TTgtNZH_tbRx26SF
+- https://youtube.com/shorts/mr5Nyj2KIxQ?si=buwYe600ZGX1xrgR
+- https://youtube.com/shorts/hAVlc0tHw_Q?si=OTdmQ4EJhV8LC-A8
+- https://youtube.com/shorts/SkCMxKPYzz4?si=DZQc621DHYmmIB-f
+- https://youtube.com/shorts/NwVTVQRZwQQ?si=aTuSiB5V8GoGOClw
