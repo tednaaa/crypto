@@ -38,7 +38,10 @@ export default defineConfig({
 			{
 				text: "Futures",
 				link: "/futures",
-				items: [{ text: "что такое Funding?", link: "/futures/funding" }],
+				items: [
+					{ text: "что такое Hedging?", link: "/futures/hedging" },
+					{ text: "что такое Funding?", link: "/futures/funding" },
+				],
 			},
 		],
 
