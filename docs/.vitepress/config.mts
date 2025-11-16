@@ -35,7 +35,11 @@ export default defineConfig({
 					},
 				],
 			},
-			{ text: "Фьючерсы", link: "/futures" },
+			{
+				text: "Futures",
+				link: "/futures",
+				items: [{ text: "что такое Funding?", link: "/futures/funding" }],
+			},
 		],
 
 		socialLinks: [
