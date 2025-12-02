@@ -10,6 +10,11 @@ export default defineConfig({
 	themeConfig: {
 		sidebar: [
 			{
+				text: "Мой Setup",
+				link: "/my_setup",
+				items: [{ text: "Выбор альтов", link: "/my_setup/select_alts" }],
+			},
+			{
 				text: "База",
 				link: "/base",
 				items: [
