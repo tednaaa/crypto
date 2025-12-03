@@ -12,7 +12,10 @@ export default defineConfig({
 			{
 				text: "Мой Setup",
 				link: "/my_setup",
-				items: [{ text: "Выбор альтов", link: "/my_setup/select_alts" }],
+				items: [
+					{ text: "Выбор альтов", link: "/my_setup/select_alts" },
+					{ text: "Алгоритм торговли", link: "/my_setup/algorithm" },
+				],
 			},
 			{
 				text: "База",
