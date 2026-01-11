@@ -21,6 +21,7 @@ export default defineConfig({
 				text: "Стратегии",
 				items: [
 					{ text: "Пробои уровней", link: "/strategies/level_breakouts" },
+					{ text: "Банальный Long", link: "/strategies/long" },
 				],
 			},
 			{
