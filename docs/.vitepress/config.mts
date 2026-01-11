@@ -18,6 +18,12 @@ export default defineConfig({
 				],
 			},
 			{
+				text: "Стратегии",
+				items: [
+					{ text: "Пробои уровней", link: "/strategies/level_breakouts" },
+				],
+			},
+			{
 				text: "Futures",
 				link: "/futures",
 				items: [
