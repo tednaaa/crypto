@@ -18,11 +18,11 @@ export default defineConfig({
 				],
 			},
 			{
-				text: "База",
-				link: "/base",
+				text: "Futures",
+				link: "/futures",
 				items: [
-					{ text: "Где торговать?", link: "/base/exchanges" },
-					{ text: "Личные заметки", link: "/base/notes" },
+					{ text: "что такое Hedging?", link: "/futures/hedging" },
+					{ text: "что такое Funding?", link: "/futures/funding" },
 				],
 			},
 			{
@@ -42,14 +42,6 @@ export default defineConfig({
 						text: "bollinger + nadara",
 						link: "/indicators/bollinger_nadara",
 					},
-				],
-			},
-			{
-				text: "Futures",
-				link: "/futures",
-				items: [
-					{ text: "что такое Hedging?", link: "/futures/hedging" },
-					{ text: "что такое Funding?", link: "/futures/funding" },
 				],
 			},
 		],

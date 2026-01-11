@@ -5,6 +5,6 @@ hero:
   name: "Гайд по крипте"
   actions:
     - theme: brand
-      text: База трейдинга
-      link: /base/
+      text: Алгоритм торговли
+      link: /my_setup/algorithm
 ---
