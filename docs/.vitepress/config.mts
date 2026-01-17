@@ -25,6 +25,10 @@ export default defineConfig({
 				],
 			},
 			{
+				text: "База знаний",
+				items: [{ text: "Token Unlock", link: "/knowledge/token_unlock" }],
+			},
+			{
 				text: "Futures",
 				link: "/futures",
 				items: [
