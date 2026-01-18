@@ -37,6 +37,17 @@ export default defineConfig({
 				],
 			},
 			{
+				text: "Психология",
+				items: [
+					{ text: "Отдых", link: "/psychology/rest" },
+					{ text: "Как отпустить сделку", link: "/psychology/give_up_trade" },
+					{
+						text: "Как не менять лимитки",
+						link: "/psychology/changing_limits",
+					},
+				],
+			},
+			{
 				text: "Инструменты",
 				items: [
 					{ text: "TradingView", link: "/tools/tradingview" },
