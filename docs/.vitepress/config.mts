@@ -58,13 +58,7 @@ export default defineConfig({
 			},
 			{
 				text: "Индикаторы",
-				items: [
-					{ text: "rsi + macd", link: "/indicators/rsi_macd" },
-					{
-						text: "bollinger + nadara",
-						link: "/indicators/bollinger_nadara",
-					},
-				],
+				items: [{ text: "EMA линии", link: "/indicators/ema" }],
 			},
 		],
 
