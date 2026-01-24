@@ -58,7 +58,10 @@ export default defineConfig({
 			},
 			{
 				text: "Индикаторы",
-				items: [{ text: "EMA линии", link: "/indicators/ema" }],
+				items: [
+					{ text: "EMA линии", link: "/indicators/ema" },
+					{ text: "Nadaraya-Watson", link: "/indicators/nadaraya_watson" },
+				],
 			},
 		],
 
